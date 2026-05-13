@@ -11,9 +11,10 @@ void digit_sum(int n, int &sum)
 }
 int main()
 {
-    int num = 12345;
-    int sum = 5;
-    digit_sum(num, sum);
-    cout << "Sum of digits: " << sum << endl;
+    int n;
+    cin>>n;
+    int sum = 0;
+    digit_sum(n, sum);
+    cout << sum << endl;
     return 0;
 }
